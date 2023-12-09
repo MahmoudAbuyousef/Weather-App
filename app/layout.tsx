@@ -16,6 +16,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="theme-color" content="#317EFB" />
+      </head>
       <body className={poppins.className}>{children}</body>
     </html>
   );
