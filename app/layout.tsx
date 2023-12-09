@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Head from "next/head";
+
 import { Poppins } from "next/font/google";
 import "./globals.css";
 
@@ -16,6 +18,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/static/favicon.ico" />
+      </Head>
       <body>{children}</body>
     </html>
   );
