@@ -1,0 +1,6 @@
+{
+  "name": "weather app",
+  "short_name": "weather app",
+  "description": "weather facts app",
+  "start_url": "https://weather-facts.vercel.app/"
+}

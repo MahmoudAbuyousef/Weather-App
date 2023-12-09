@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { getCurrentDate } from "../utils/currentDate";
+import { getCurrentDate } from "./currentDate";
 
 function Current({ data }: any) {
   const currentDate = getCurrentDate();
